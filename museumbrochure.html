@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ruth Peterson</title>
+        <meta name="description" content="My Portfolio">
+        <link rel="icon" type="image/x-icon" href="Images/Favicon.svg">
+        <link rel="preload" as="image" imagesrcset="Images/desk.png">
+        <link rel="preload" as="image" imagesrcset="Images/postit.png">
+        <link rel="stylesheet" href="main.css">
+        <script type="text/javascript" src="javascript.js"></script>
+    </head>
+    <body>
+        
+        <div class="placementgrid">
+        
+            <img src="Images/postit.png" class="postit">
+
+            <div class="window">
+                
+                <div class="topbar">
+                    <a href="projects.html" title="Back">
+                        <img src="Images/Back.svg" class="x">
+                    </a>
+                    <h1>Museum Brochure</h1>
+                </div>
+                
+                <!-- ADD CONTENT HERE!! -->
+                <div class="page">
+                    <div class="projectinfo">
+                        <div class="projheroimgs">
+                            <img src="Images/Projects/brochure01thumb.png" class="hero hover-shadow" onclick="openModal();currentSlide(1)">
+                            <img src="Images/Projects/brochure02thumb.png" class="sideimg hover-shadow" onclick="openModal();currentSlide(2)">
+                            <img src="Images/Projects/brochure03thumb.png" class="sideimg hover-shadow" onclick="openModal();currentSlide(3)">
+                            <img src="Images/Projects/brochureherothumb.png" class="sideimg hover-shadow" onclick="openModal();currentSlide(4)">
+                        </div>
+                        <div class="projwordles">
+                            <h2 class="h2proj">Museum Brochure</h2>
+                            <p class="pproj">The museum is full of history and interesting facts. Except, these aren't very accessible to young kids. Info panels use lots of big scientific words even adults find hard to read. So, what if there was a brochure containing simple words, imaginative activities, and a big, bright dinosaur on the cover?</p>
+                        </div>
+                        <div class="projdata">
+                            <em>Graphic Design • 2023</em><br><br>
+                            <b>NOT OFFICIAL AUCKLAND MUSEUM BROCHURE</b><br><br>
+                            <p class="infos">Illustrator • InDesign • Procreate</p><br>
+                            <p class="infos">Art • Copy • Layout: By Me</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="taskbar-page-ver">
+                    <a href="contact.html" title="Contact">
+                        <p class="tasktext">~ contact ~</p>
+                    </a> 
+                </div>
+                
+            </div> <!-- desktop -->
+        
+        </div> <!-- placementmarker -->
+        
+        <!-- ############## LIGHTBOX JUNK ################ -->
+        <div id="myLightbox" class="lightbox">
+            
+            <div class="main-lightbox">
+                <!-- Close button --> 
+                <img src="Images/Close.svg" class="close cursor" onclick="closeModal()">
+
+                <!-- Inside -->
+                <div class="lightbox-stuff">
+                    <div class="mySlides">
+                        <img src="Images/Projects/brochure01.png" class="slideimg" alt="Inside">
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="Images/Projects/brochure02.png" class="slideimg" alt="Cover">
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="Images/Projects/brochure03.png" class="slideimg" alt="Inside">
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="Images/Projects/brochurehero.png" class="slideimg" alt="Back">
+                    </div>
+                </div>
+
+                <!-- Next and Previous buttons-->
+                <img src="Images/Prev.svg" class="prev" onclick="plusSlides(-1)">
+                <img src="Images/Next.svg" class="next" onclick="plusSlides(1)">
+
+                <!-- Captions -->
+                <div class="captions">
+                    <p id="caption"></p>
+                </div>
+            </div>
+
+        </div>
+        
+    </body>
+</html>
