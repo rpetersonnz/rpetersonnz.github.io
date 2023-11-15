@@ -53,7 +53,7 @@ function closeImg() {
 
 // Change Pic
 function changeImg1() {
-  document.getElementById("proimg").src='images/profilepic1.jpg';
+  document.getElementById("proimg").src='Images/profilepic1.jpg';
   document.getElementById("pics").style.display = "none";
 }
 
@@ -64,7 +64,7 @@ function changeImg2() {
 }
   
   function changeImg3() {
-  document.getElementById("proimg").src='images/profilepic5.PNG';
+  document.getElementById("proimg").src='Images/profilepic5.PNG';
   document.getElementById("pics").style.display = "none";
     
 }
@@ -76,7 +76,7 @@ function changeImg2() {
 }
 
   function changeImg5() {
-  document.getElementById("proimg").src='images/profilepic3.jpg';
+  document.getElementById("proimg").src='Images/profilepic3.jpg';
   document.getElementById("pics").style.display = "none";
     
 }
