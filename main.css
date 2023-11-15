@@ -663,7 +663,7 @@ input[type=checkbox] {
 
 /*992*/
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-device-width: 992px) {
     
 .desktop {
     grid-area: 2 / 2 / 3 / 3;
@@ -850,7 +850,7 @@ input[type=checkbox] {
 
 /*768*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-device-width: 768px) {
   
     
     html {
