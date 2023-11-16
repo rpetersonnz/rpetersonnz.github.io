@@ -660,6 +660,7 @@ input[type=checkbox] {
     background-image: url(Images/Placeholders/binbackground.PNG);
     background-position: center bottom;
     background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     grid-template-columns: repeat(12, 8.3%);
     grid-template-rows: repeat(12, 8.3%); 
