@@ -3,7 +3,7 @@
 
 html {
     background-color: #d1c2e5;
-    background-image: image-set("Images/desk.png");
+    background-image: url("Images/desk.png");
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
